@@ -1,15 +1,1 @@
 <!--index.wxml-->
-<view wx:for="{{arr}}" wx:for-item="i">
-  <view wx:for="{{arr}}" wx:for-item="j">
-    <view wx:if="{{i<=j}}">
-      {{i}}*{{j}} = {{i*j}}
-    </view>
-  </view>
-</view>
-
-
-<swiper 	indicator-dots="true" autoplay="true" circular="true">
-  <swiper-item wx:for="{{imgs}}" wx:key="id">
-    <image src="{{item}}"></image>
-  </swiper-item>
-</swiper>
