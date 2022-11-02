@@ -1,2 +1,26 @@
-<!--pages/maiche/maiche.wxml-->
-<text>pages/maiche/maiche.wxml</text>
+<view class="box">
+    <view class="lande">
+
+        <view class="inp">
+            <text>姓名*</text> <input type="text"  placeholder="请输入姓名（必填）"/>
+        </view>
+        <view class="inp">
+            <text>手机号码*</text> <input type="text" placeholder="请输入手机号码（必填）" />
+        </view>
+        <view class="inp">
+            <text>评估车型</text> <input type="text" placeholder="请输入车型" />
+        </view>
+        <view class="inp">
+            <text>公里数</text> <input type="text" placeholder="请输入姓名（必填）"/>
+        </view>
+        <view class="inp">
+            <text>上牌时间</text> <input type="text" placeholder="请选择时间"/>
+        </view>
+        <view class="btu">立即估值</view >
+    </view>
+    <view class="imgs">
+        <image src="https://i.postimg.cc/V6P0GzqG/1667377536612.png"></image>
+        <image src="https://i.postimg.cc/Sx04zjkv/42-EE-8-X2-YJM5-4-F-L1-7.png"></image>
+        <image src="https://i.postimg.cc/pL2HB45f/U9-KJH-04-PJ6-V-CU47-6-HL.png"></image>
+    </view>
+</view>

@@ -1,1 +1,41 @@
-/* pages/maiche/maiche.wxss */
+.box {
+    width: 750rpx;
+}
+.lande{
+    width: 650rpx;
+    margin:  20rpx auto;
+    height: 580rpx;
+    border-radius: 20rpx;
+    background-color: rgb(255, 255, 255);
+}
+.btu{
+    width: 650rpx;
+    height: 128rpx;
+    border-radius: 0 0 20rpx 20rpx;
+    background-color: #497FFF;
+    text-align: center;
+    font-size: 44rpx;
+    font-weight: 700;
+    line-height: 128rpx;
+}
+.inp{
+    width: 650rpx;
+    height: 128rpx;
+}
+.inp text{
+    width: 200rpx;
+    display: inline-block;
+    vertical-align: top;
+}
+.inp input{
+    display: inline-block;
+    vertical-align: top;
+}
+.imgs{
+    width: 650rpx;
+    margin:  40rpx auto;
+}
+.imgs image{
+    display: block;
+    margin-top: 200rpx;
+} 
