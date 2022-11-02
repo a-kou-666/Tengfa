@@ -7,15 +7,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-    id:""
+    id:"",
+    shuju:""
   },
 xiang(){
-    xq({
-        data:{
-            ind:this.data.id
-        }
-    }).then(res=>{
-        console.log(res.data);
+    xq(
+     this.data.id
+    ).then(res=>{
+        this.setData({
+            shuju:res.data.data
+        })
+        console.log(res.data.data);
     })
 },
   /**

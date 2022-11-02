@@ -32,7 +32,7 @@ export function chexing(obj) {
 export function xq(obj) {
     return axios({
         header:headers,
-        url: baseUrl  + `/api/tfcar/car/getCarBasicInfoVo`,
+        url: baseUrl  + `/api/tfcar/car/basicInfo/${obj}`,
         // ...obj
     })
 }

@@ -1,1 +1,4 @@
 /* pages/xq/xq.wxss */
+.box{
+    width: 750rpx;
+}

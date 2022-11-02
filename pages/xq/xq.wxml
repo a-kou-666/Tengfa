@@ -1,2 +1,13 @@
 <!--pages/xq/xq.wxml-->
-<text>pages/xq/xq.wxml</text>
+<view class="box">
+    <view class="img">
+    <image src="{{shuju.cover}}"></image>
+    <view>{{shuju.carName}}</view>
+    <view>{{shuju.parameterVo.carColor}}</view>
+    <view>{{shuju.parameterVo.drive}}</view>
+    <view>{{shuju.parameterVo.emissionStandard}}</view>
+    <view>{{shuju.parameterVo.engine}}</view>
+    <view>{{shuju.parameterVo.fuel}}</view>
+    <view>{{shuju.parameterVo.gearbox}}</view>
+    </view>
+</view>
