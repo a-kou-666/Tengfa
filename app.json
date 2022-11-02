@@ -1,15 +1,46 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/list/list"
-    
+    "pages/list/list",
+    "pages/maiche/maiche",
+    "pages/ershou/ershou"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
+  
+  "tabBar": {
+    "list": [
+        {
+            "text": "首页",
+            "pagePath": "pages/index/index"
+         
+        },
+        {
+            "text": "二手",
+            "pagePath": "pages/list/list"
+        
+        },
+        {
+            "text": "二手",
+            "pagePath": "pages/ershou/ershou"
+      
+        },
+        {
+            "text": "买车",
+            "pagePath": "pages/maiche/maiche"
+      
+        }
+    ],
+    "position": "bottom",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "color": "#333",
+    "selectedColor": "#ff0000"
+},
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

@@ -1,6 +1,6 @@
 const axios = require("./axios")
 
-const baseUrl = "http://localhost:3000"
+const baseUrl = "https://api.tf2sc.cn"
 // const baseUrl = "http://www.wh.com"
 
 
