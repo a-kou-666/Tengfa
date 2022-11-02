@@ -1,14 +1,14 @@
-module.exports = obj => {
+const app = getApp()
 
+ module.exports = obj => {
     return new Promise((res, rej) => {
         wx.showLoading({
-            title: '正在拼命加载~',
+            title: '正在加载...',
         })
         wx.request({
             ...obj,
             success(data) {
                 res(data)
-                // console.log(data);
                 wx.hideLoading()
             },
             fail(err) {
