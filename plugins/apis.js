@@ -28,3 +28,11 @@ export function chexing(obj) {
         // ...obj
     })
 }
+//xq  
+export function xq(obj) {
+    return axios({
+        header:headers,
+        url: baseUrl  + `/api/tfcar/car/getCarBasicInfoVo`,
+        // ...obj
+    })
+}

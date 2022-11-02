@@ -1,3 +1,16 @@
 <view class="box">
-
+    <view class="zuo">
+        <view class="chexing" bindtap="huan">车型</view>
+        <view hidden="{{falg}}" class="kuai" wx:for="{{chex}}" wx:key="index" bindtap="na" data-id="{{item.id}}">{{item.model}}</view>
+    </view>
+    <view class="you">
+        <view class="pinpai" bindtap="huan1">品牌</view>
+        <view hidden="{{falg1}}" class="kuai" wx:for="{{pinpai}}" wx:key="index" bindtap="na1" data-id="{{item.id}}">{{item.brand}}</view>
+    </view>
+    <view class="che">
+        <view wx:for="{{arr}}" wx:key="index" bindtap="tiao" data-id="{{item.ind}}">
+        <image src="{{item.cover}}"></image>
+        <view>{{item.carName}}</view>
+        </view>
+    </view>
 </view>

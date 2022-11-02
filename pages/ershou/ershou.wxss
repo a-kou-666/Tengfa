@@ -1,1 +1,42 @@
 /* pages/ershou/ershou.wxss */
+.box{
+    width: 750rpx;
+}
+.chexing{
+    display: inline-block;
+    vertical-align: top;
+    width: 300rpx;
+}
+.pinpai{
+    display: inline-block;
+    vertical-align: top;
+    width: 450rpx;
+}
+.kuai{
+    width: 300rpx;
+    display: inline-block;
+    vertical-align: top;
+}
+.zuo{
+    width: 300rpx;
+    display: inline-block;
+    vertical-align: top;
+}
+.you{
+    width: 450rpx;
+    height: 340rpx;
+    overflow-y: scroll;
+    display: inline-block;
+    vertical-align: top;
+}
+.che{
+    width: 750rpx;  
+    text-align: center;
+}
+.che image{
+    display: block;
+    margin: 0 auto;
+    width: 650rpx;
+
+    height: 650rpx;
+}
